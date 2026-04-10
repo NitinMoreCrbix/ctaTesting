@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <!-- calling groups -->
+  <groups>
+  <run>
+  <exclude name="Shweta">
+  </exclude>
+  <include name ="RegressionTest">
+  </include>
+  <include name ="Nitin">
+  </include>
+  </run>
+  </groups>
+    <classes>
+    <class name ="CTATestNgpgm.Test3Group"/>
+      <class name="CTATestNgpgm.Test2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

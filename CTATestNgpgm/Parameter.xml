@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+	<!-- parameter code -->
+
+	<parameter name="uid" value="adminNitin"></parameter>
+	<parameter name="pswd" value="nitin@20"></parameter>
+	<parameter name="abcid" value="adminCollege"></parameter>
+	<parameter name="abcpswd" value="college@123"></parameter>
+
+
+	<test name="Test">
+
+		<classes>
+			<class name="CTATestNgpgm.ParameterTest" />
+			<class name="CTATestNgpgm.Test2" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
